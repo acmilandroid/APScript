@@ -1,0 +1,13 @@
+For 5ghz
+
+config 802.11a disable <AP NAME>
+config 802.11a channel ap <AP NAME> <5-CHANNEL>
+config 802.11a txPower ap <AP NAME> <5-POWER>
+config 802.11a enable <AP NAME>
+
+For 2.4ghz
+
+config 802.11b disable <AP NAME>
+config 802.11b channel ap <AP NAME> <2-CHANNEL>
+config 802.11b txPower ap <AP NAME> <2-POWER>
+config 802.11b enable <AP NAME>

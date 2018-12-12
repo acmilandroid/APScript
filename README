@@ -1,0 +1,13 @@
+README
+
+sudo apt-get install perl
+sudo apt-get install cpanm
+sudo apt-get install cmake
+sudo cpanm install 'Spreadsheet::XLSX'
+sudo cpanm install 'Spreadsheet::ParceExcel'
+sudo cpanm install 'Spreadsheet::Read'
+
+sudo apt-get install libssh2-1-dev
+sudo cpanm install 'Net::SSH2'
+sudo cpanm install 'Net::SSH::Expect'
+

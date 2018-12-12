@@ -1,0 +1,83 @@
+
+
+(Cisco Controller) 
+User: netserv
+Password:
+User:
+User:netserv
+Password:********
+(Cisco Controller) >config 802.11a disable blaberd-tester1
+
+
+(Cisco Controller) >config 802.11a channel ap blaberd-tester1 40
+
+Note: Due to regulatory constraints, absolute power (in dBm) will vary among different channels.
+Please verify and make necessary corrections as deemed necessary.
+
+(Cisco Controller) >config 802.11a txPower ap blaberd-tester1 5
+
+
+(Cisco Controller) >config 802.11a enable blaberd-tester1
+
+
+(Cisco Controller) >config 802.11-abgn disable blaberd-tester1
+
+
+(Cisco Controller) >config 802.11-abgn channel ap blaberd-tester1 5
+
+
+(Cisco Controller) >config 802.11-abgn txPower ap blaberd-tester1 2
+
+
+
+
+(Cisco Controller) >config 802.11-abgn enable blaberd-tester1
+
+
+(Cisco Controller) >config 802.11a disable AP78da.6e85.2e73
+
+
+(Cisco Controller) >config 802.11a channel ap AP78da.6e85.2e73 40
+
+Note: Due to regulatory constraints, absolute power (in dBm) will vary among different channels.
+Please verify and make necessary corrections as deemed necessary.
+
+(Cisco Controller) >config 802.11a txPower ap AP78da.6e85.2e73 4
+
+
+(Cisco Controller) >config 802.11a enable AP78da.6e85.2e73
+
+
+(Cisco Controller) >config 802.11-abgn disable AP78da.6e85.2e73
+
+Cisco Radio in invalid role or wrong slot
+
+(Cisco Controller) >config 802.11a disable AP700F.6A54.1336
+
+
+(Cisco Controller) >config 802.11a channel ap AP700F.6A54.1336 40
+
+Note: Due to regulatory constraints, absolute power (in dBm) will vary among different channels.
+Please verify and make necessary corrections as deemed necessary.
+
+(Cisco Controller) >config 802.11a txPower ap AP700F.6A54.1336 5
+
+
+(Cisco Controller) >config 802.11a enable AP700F.6A54.1336
+
+
+(Cisco Controller) >config 802.11-abgn disable AP700F.6A54.1336
+
+
+(Cisco Controller) >config 802.11-abgn channel ap AP700F.6A54.1336 5
+
+
+(Cisco Controller) >config 802.11-abgn txPower ap AP700F.6A54.1336 2
+
+
+
+
+(Cisco Controller) >config 802.11-abgn enable AP700F.6A54.1336
+
+
+(Cisco Controller) >
